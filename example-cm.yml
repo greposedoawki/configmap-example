@@ -1,0 +1,11 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: test-cm
+data:
+  entry: |
+    listOfElements:
+    - element1: |
+        here comes totally random string
+      element2: |
+        generally speaking also random content
